@@ -8,10 +8,10 @@
     },
     "location": "eastus",
     "properties": {
-        "blueprintId": "/subscriptions/ce5ed102-97ff-45d6-891d-5c6d28f64e2e/providers/Microsoft.Blueprint/blueprints/",
+        "blueprintId": "/subscriptions/ce5ed102-97ff-45d6-891d-5c6d28f64e2e/providers/Microsoft.Blueprint/blueprints/demobpgit",
         "resourceGroups": {
             "ResourceGroup": {
-              "name": "neu-data-ai-platform-dev-rg",
+              "name": "rgtestdemo",
 
               "location": "eastus"
             }
@@ -20,54 +20,21 @@
             "mode": "none"
         },    
         "parameters": {
-        "customerCode": {
-          "value": "neu",
-          "metadata": {
-            "description": "3 or 4 character identifier used in resource naming conventions.  (Ex. 'imc')"
-          }
-        },
-        "solutionCode": {
-          "value":"da",
-          "metadata": {
-            "description": "2 to 4 character identifier for the name of the project.  (Ex. 'da')"
-          }
-        },
-        "environment": {
-          "value": "dev",
-          "metadata": {
-            "description": "3 or 4 character abbreviation for the environment.  Used in resource naming conventions. (Ex. 'dev')"
-          }
-        },
         "location":{
-          "value":"westus2",
+          "value":"eastus",
           "metadata": {
             "description": "Name of the Azure Region to build the resources. (Ex. 'southcentralus')"
           }
         },
-        "locationCode": {
-          "value":"wu2",
-          "metadata": {
-            "description":"2 to 4 character identifier for the location of the resources used in the naming convention.  (Ex. 'scus')"
-          }
-        },
         "tags": {
           "value": {
-            "Owner" : "Karun Ramesh",
+            "Owner" : "Manish",
             "Environment" : "Dev",            
-            "Description": "Dev Environment for Neudesic IP",
+            "Description": "Dev Environment for testing",
             "Market" : "DIG",
             "Practice" : "Data & AI Innovation Business Group",
             "Project": "Neudesic ONE Data & AI Accelerator"
           }
-        },
-        "sqlAdminUsername": {
-          "value": "SQLAdmin"
-        },
-        "adminGroupEmail": {
-          "value": "DataAnalyticsAdmin@neudesic.onmicrosoft.com"
-        },
-        "teamGroupEmail": {
-          "value": "DataAnalyticsTeam@neudesic.onmicrosoft.com"
         }
       }
     }
