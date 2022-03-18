@@ -5,7 +5,7 @@ on:
   
 jobs:
   Create_blueprint:
-    environment: neu-data-ai-platform-dev-rg
+    environment: rgtestdemo
     name: Create Blueprint
     runs-on: ubuntu-latest
     steps:
