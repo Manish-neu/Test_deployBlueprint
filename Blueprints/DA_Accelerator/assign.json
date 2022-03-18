@@ -3,17 +3,17 @@
         "type": "userAssigned",
         "tenantId": "687f51c3-0c5d-4905-84f8-97c683a5b9d1",
         "userAssignedIdentities": {
-          "/subscriptions/ee4fdb65-da41-4618-a449-84c7d98a9f6b/resourcegroups/neu-data-ai-platform-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/blueprints-deploy": {}
+          "/subscriptions/ce5ed102-97ff-45d6-891d-5c6d28f64e2e/resourcegroups/rgtestdemo/providers/Microsoft.ManagedIdentity/userAssignedIdentities/demo-mi-rgtestdemo": {}
         }
     },
-    "location": "westus2",
+    "location": "eastus",
     "properties": {
-        "blueprintId": "/subscriptions/ee4fdb65-da41-4618-a449-84c7d98a9f6b/providers/Microsoft.Blueprint/blueprints/deploy-IaC-dev",
+        "blueprintId": "/subscriptions/ce5ed102-97ff-45d6-891d-5c6d28f64e2e/providers/Microsoft.Blueprint/blueprints/",
         "resourceGroups": {
             "ResourceGroup": {
               "name": "neu-data-ai-platform-dev-rg",
 
-              "location": "westus2"
+              "location": "eastus"
             }
         },
         "locks": {
