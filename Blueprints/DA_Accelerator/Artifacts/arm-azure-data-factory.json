@@ -38,7 +38,7 @@
         }
       },
       "variables": {
-        "DataFactoryname": "[format('{0}-{1}-{2}-{3}-adf-01',parameters('customerCode'),parameters('environment'),parameters('locationCode'),parameters('solutionCode'))]"
+        "DataFactoryname": "test-adf-odp"
       },
       "resources": [
         {
