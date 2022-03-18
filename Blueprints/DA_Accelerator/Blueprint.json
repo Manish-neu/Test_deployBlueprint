@@ -11,7 +11,8 @@
       },
       "tags": {
         "type": "object"
-      },
+      }
+     ),
     "resourceGroups": {
       "ResourceGroup":  {
         "type": "object"
